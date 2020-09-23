@@ -20,6 +20,9 @@ import store from './store/index'
 
 Vue.component('posts', require('./components/Posts.vue'))
 Vue.component('createPost', require('./components/CreatePost.vue'))
+Vue.component('order', require('./components/OrderComponent.vue'))
+Vue.component('summary', require('./components/OrderSummary.vue'))
+Vue.component('example', require('./components/ExampleComponent.vue'))
 
 const app = new Vue({
     el: '#app',

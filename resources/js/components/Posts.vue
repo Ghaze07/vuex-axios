@@ -5,14 +5,16 @@
             <thead>
             <tr>
                 <th scope="col">Title</th>
-                <th scope="col">Content</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
                 <th scope="col">Actions</th>
             </tr>
             </thead>
             <tbody>
             <tr v-for="post in posts">
                 <td>{{post.title}}</td>
-                <td>{{post.content}}</td>
+                <td>{{post.price}}</td>
+                <td>{{post.quantity}}</td>
                 <td>
                     <button class="btn btn-danger" @click="deletePost(post)"><i style="color:white" class="fa fa-trash"></i></button>
                 </td>

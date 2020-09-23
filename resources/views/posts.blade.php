@@ -85,6 +85,14 @@
                 <posts></posts>
 
             </div>
+            <div class="col-md-7">
+                <order></order>
+
+            </div>
+            <div class="col-md-7">
+                <example></example>
+
+            </div>
         </div>
     </div>
 

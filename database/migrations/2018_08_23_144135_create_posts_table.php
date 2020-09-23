@@ -16,7 +16,10 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->text('content');
+            //$table->boolean('instock')->default(false);
+            $table->float('price');
+            $table->string('quantity');
+            //$table->text('content');
             $table->timestamps();
         });
     }
